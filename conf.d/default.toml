@@ -8,4 +8,4 @@ keys = [
   "/",
 ]
 check_cmd  = "rm -rf /etc/nginx-new ; cp -rp /etc/nginx /etc/nginx-new ; cp {{ .src }} /etc/nginx-new/conf.d/default.conf; /usr/sbin/nginx -t -p /etc/nginx-new"
-reload_cmd = "/usr/sbin/service nginx reload"
+reload_cmd = "/sbin/service nginx reload"
