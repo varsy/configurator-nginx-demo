@@ -1,4 +1,4 @@
-confd-nginx-default
-===================
+configurator-nginx-demo
+=======================
 
-Default config for sergeyzh/centos6-nginx container
+Demo config for varsy/configurator container.
